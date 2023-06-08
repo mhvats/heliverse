@@ -1,0 +1,182 @@
+.app-container {
+  /* border: 1px solid red; */
+  width: 30%;
+}
+.background-container {
+  border: 1px solid black;
+  width: 100%;
+  height: 100vh;
+}
+.background-container > img {
+  width: 100%;
+  height: 100vh;
+}
+
+.casting-container {
+  margin-top: 80px;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  /* border: 1px solid white; */
+  width: 30%;
+  cursor: pointer;
+}
+.casting-container > img {
+  width: 120px;
+}
+.casting-container > P {
+  color: white;
+  /* border: 1px solid white; */
+  width: 20%;
+  font-size: 1.5rem;
+  position: relative;
+  bottom: 70px;
+  left: 3px;
+  transform: rotate(-15deg);
+  margin: 0 auto;
+}
+.result-container {
+  text-align: center;
+  /* border: 1px solid white; */
+  position: absolute;
+  top: 0;
+  width: 30%;
+  margin-top: 250px;
+}
+.girl-container {
+  z-index: 5;
+  position: absolute;
+  /* border: 1px solid black; */
+  width: 30%;
+  bottom: 0;
+  text-align: center;
+  margin-bottom: 75px;
+}
+.girl-container > img {
+  width: 180px;
+}
+.stage-container {
+  /* margin-top: 50px; */
+  /* border: 1px solid white; */
+  position: absolute;
+  bottom: -15px;
+  /* top: 20px; */
+  width: 100%;
+}
+.stage-container > img {
+  width: 30%;
+}
+.qoute-container {
+  /* margin-left: 120px; */
+  text-align: center;
+  position: absolute;
+  width: 30%;
+  /* border: 1px solid white; */
+  word-wrap: break-word;
+  top: 0;
+  font-size: 1.5rem;
+  margin-top: 180px;
+}
+.count-container {
+  text-align: center;
+  position: absolute;
+  width: 30%;
+  /* border: 1px solid white; */
+  top: 0;
+  font-size: 1.5rem;
+  margin-top: 220px;
+}
+.count-container > img {
+  width: 150px;
+}
+.count-container > p {
+  position: absolute;
+  color: gold;
+  /* border: 1px solid white; */
+  top: 45px;
+  right: 185px;
+  font-size: 2rem;
+}
+.arrow-container {
+  z-index: 500;
+  /* border: 1px solid white; */
+  position: absolute;
+  bottom: 200px;
+  right: 1100px;
+  cursor: pointer !important;
+}
+.arrow-container > img {
+  width: 50px;
+  cursor: pointer !important;
+}
+
+.user-container {
+  position: absolute;
+  top: 0;
+  width: 30%;
+  margin-top: 50px;
+  display: flex;
+  /* border: 1px solid red; */
+  justify-content: space-around;
+  /* transform: translateX(100%); */
+}
+.user-container > img {
+  width: 100px;
+  border: 2px solid gold;
+  border-radius: 100px;
+}
+.username-container {
+  color: gold;
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 480px) {
+  .app-container{
+    width: 100%;
+  }
+  .arrow-container{
+    /* border: 1px solid yellow; */
+    width: 15%;
+    right: 10px;
+  }
+  .background-container{
+    width: 100%;
+  }
+  .casting-container{
+    width: 100%;
+  }
+  .count-container{
+    width: 100%;
+  }
+  .count-container > p{
+    /* border: 1px solid yellow; */
+    right: 150px;
+  }
+  .girl-container{
+    width: 100%;
+  }
+  .qoute-container{
+    width: 100%;
+  }
+  .result-container{
+    width: 100%;
+  }
+  .stage-container{
+    /* border: 1px solid yellow; */
+    width: 100%;
+    bottom: 0;
+  }
+  .stage-container > img{
+    width: 390px;
+  }
+  .user-container{
+    width: 100%;
+  }
+  .username-container{
+    width: 100%;
+  }
+}
